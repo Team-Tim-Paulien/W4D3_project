@@ -1,0 +1,49 @@
+body {
+  background: #c3cfe2;
+}
+
+article div {
+  width: 400px;
+  box-shadow: 2px 2px 8px grey;
+}
+
+article div:first-of-type {
+  height: 400px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  background-color: white;
+  position: relative;
+}
+
+article div:last-of-type {
+  height: 200px;
+  background: gold;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  text-align: center;
+}
+
+.quote p {
+  padding: 40px;
+  font-size: 1.4em;
+}
+
+.author p:first-child {
+  padding-top: 70px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.author p:nth-child(2) {
+  color: darkgray;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  bottom: -50px;
+  left: 150px;
+  border-radius: 50%;
+  border: white 2px solid;
+  position: absolute;
+}
