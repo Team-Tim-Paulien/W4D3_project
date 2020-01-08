@@ -16,7 +16,7 @@ button {
 button:hover {
   z-index: 25;
 }
-img:hover {
+div div:hover img {
   opacity: 40%;
   transition: opacity 0.5s ease-in;
   z-index: 5;
@@ -32,7 +32,7 @@ img {
   position: absolute;
   z-index: 20;
 }
-div {
+div div {
   position: relative;
 }
 
@@ -46,6 +46,5 @@ div {
 @media only screen and (min-width: 768px) {
   .portfolio {
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: repeat(10);
   }
 }
