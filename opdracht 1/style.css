@@ -1,11 +1,18 @@
 body {
   background: #c3cfe2;
 }
+ 
+article{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 400px;
+    border-radius: 2em;
+    margin: 100px auto;
+}
 
 article div {
   width: 400px;
-  box-shadow: 2px 2px 8px grey;
-}
+
+  }
 
 article div:first-of-type {
   height: 400px;
