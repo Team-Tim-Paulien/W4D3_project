@@ -1,58 +1,51 @@
-.portfolio{
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: repeat(10, 400px);
+.portfolio {
+  background-color: #c3cfe2;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(10, 400px);
 }
-button{
-	
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	cursor: pointer;
-	position: absolute;
-	z-index: 10;
-
-}
-
-img:hover{
-	opacity: 40%;
-	transition: opacity .5s ease-in;
-	z-index: 5;
-}
-img{
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	display: block;
-	border-radius: 2em;
-	opacity: 100%;
-	transition: opacity .5s ease-in;
-	position: absolute;
-	z-index: 20;
-}
-div{
-	position: relative;
+button {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
 }
 
-
-@media screen and (max-width: 600px) {
-  .portfolio {
-
-    background-color: green;
-  }
+button:hover {
+  z-index: 25;
 }
+img:hover {
+  opacity: 40%;
+  transition: opacity 0.5s ease-in;
+  z-index: 5;
+}
+img {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  border-radius: 2em;
+  opacity: 100%;
+  transition: opacity 0.5s ease-in;
+  position: absolute;
+  z-index: 20;
+}
+div {
+  position: relative;
+}
+
 @media only screen and (min-width: 601px) and (max-width: 767px) {
-  .portfolio{
-   grid-template-columns: 50% 50%;
-   grid-template-rows: repeat(10);
-   background-color: yellow;
-}
+  .portfolio {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(10);
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .portfolio {
     grid-template-columns: 33% 33% 33%;
-	grid-template-rows: repeat(10);  
-	background-color: red;
-}
+    grid-template-rows: repeat(10);
+  }
 }
