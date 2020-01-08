@@ -1,0 +1,15 @@
+.fa-laptop-code:before {
+    content: "\f5fc";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+.fa-github:before {
+    content: "\f09b";
+}
